@@ -1,0 +1,57 @@
+body{
+margin-top:15%;
+display:flex;
+flex-direction: column;
+align-items:center;
+background-color: #faf5ff;
+}
+
+.throws{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:50px;
+    color:#545454;
+}
+.container{
+    border:1px solid pink;
+}
+
+.choice{
+   margin-bottom:30px;
+}
+.choice button{
+    font-size: 50px;
+    min-width:160px;
+    margin: 0 30px;
+    border-radius: 5px;
+    background-color: #ffecf9;
+}
+
+button img{
+    width:55px;
+}
+
+.score_outcome{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color:#545454;
+}
+
+#playerDisplay, #computerDisplay{
+    font-size: 25px;
+}
+
+#resultDisplay{
+    font-size:50px;
+}
+
+.scoreDisplay{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-size:25px;
+    color:#545454;
+}
