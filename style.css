@@ -15,7 +15,7 @@ background-color: #faf5ff;
     color:#545454;
 }
 .container{
-    border:1px solid pink;
+    border:5px solid pink;
 }
 
 .choice{
@@ -30,7 +30,8 @@ background-color: #faf5ff;
 }
 
 button img{
-    width:55px;
+    width:150px;
+    margin-top:5px;
 }
 
 .score_outcome{
