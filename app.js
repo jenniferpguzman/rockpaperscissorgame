@@ -3,6 +3,7 @@ const choices =["rock","paper","scissors"];
 const playerDisplay = document.getElementById("playerDisplay");
 const computerDisplay = document.getElementById("computerDisplay");
 const resultDisplay = document.getElementById("resultDisplay");
+//using querySelector for class elements
 const playerScoreDisplay = document.querySelector(".playerScoreDisplay");
 const computerScoreDisplay = document.querySelector(".computerScoreDisplay");
 let playerScore = 0;
@@ -29,12 +30,12 @@ function playGame(playerChoice){
                 break;
         }
     }
-
+// display choices and results
     playerDisplay.textContent = `PLAYER: ${playerChoice}`;
     computerDisplay.textContent = `Computer: ${computerChoice}`;
     resultDisplay.textContent = result;
     resultDisplay.classList.remove("greenText","redText");
-
+//updates scores
 if (result === "YOU WIN!") {
     resultDisplay.classList.add("greenText");
     playerScore++;
