@@ -37,11 +37,9 @@ function playGame(playerChoice){
     resultDisplay.classList.remove("greenText","redText");
 //updates scores
 if (result === "YOU WIN!") {
-    resultDisplay.classList.add("greenText");
     playerScore++;
     playerScoreDisplay.textContent = playerScore;
 } else if ( result === "YOU LOSE!"){
-    resultDisplay.classList.add("redText");
     computerScore++;
     computerScoreDisplay.textContent = computerScore;
 }
